@@ -1,5 +1,8 @@
 name: "kishore-test-git"
 topology:
+  kinds:
+    ceos:
+      startup-config: ./ceos_lab_template/ceos.cfg.tpl
   nodes:
     ceos1:
       kind: "ceos"
